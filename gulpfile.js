@@ -24,7 +24,7 @@ gulp
 
 // Config for theme
 var themePath = './';
-var projectURL = 'http://travelmax.loc';
+var projectURL = 'http://travelmax';
 
 // Browsersync
 const browserSync = require('browser-sync').create();

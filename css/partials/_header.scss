@@ -35,3 +35,22 @@
     }
   }
 }
+
+.primaryNav {
+  li {
+    ul {
+      position: absolute;
+      display: none;
+      z-index: 3;
+      &:hover {
+        display: block;
+      }
+    }
+  }
+}
+
+.header__logo-image {
+  max-width: 197px;
+  width: 100%;
+  height: 81px;
+}
