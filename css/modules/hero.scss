@@ -45,6 +45,12 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: $white;
+    @media only screen and (max-width: 1100px) {
+      @include fsz(28px);
+    }
+    @media #{$phone} {
+      @include fsz(28px);
+    }
   }
   .hero__heading-strong {
     font-family: $primary-family;
@@ -59,6 +65,12 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    @media only screen and (max-width: 1100px) {
+      @include fsz(150px);
+    }
+    @media #{$phone} {
+      @include fsz(70px);
+    }
   }
 }
 
@@ -77,7 +89,15 @@
   border-radius: 60px;
   background-color: $white;
   margin-top: -45px;
-  
+  @media only screen and (max-width: 1100px) {
+    max-width: 500px;
+    margin-top: -25px;
+  }
+  @media #{$phone} {
+    max-width: 250px;
+   margin-top: -10px;
+   height: 40px;
+  }
 }
 
 label {

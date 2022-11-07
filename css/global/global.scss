@@ -90,3 +90,12 @@ a {
   stroke: currentColor;
   fill: currentColor;
 }
+
+img {
+  vertical-align: top;
+  width: auto;
+  max-width: 100%;
+}
+figure, iframe, svg {
+  vertical-align: top;
+}
