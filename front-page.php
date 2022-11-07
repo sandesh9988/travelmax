@@ -9,18 +9,20 @@ the_post();
                 <svg class="icon icon-percent">
                     <use xlink:href="#icon-percent"></use>
                 </svg>
-                <p>Offering <strong>20% discount<strong> on selected trips</p>
+                <p>Offering <strong class="hero__badge-strong">20% discount</strong> on selected trips</p>
                 <svg class="icon icon-rightarrow">
                     <use xlink:href="#icon-rightarrow"></use>
                 </svg>
             </div>
             <div class="hero__heading">
-                <h2 class="hero__title">Explore Beyond the <strong>Himalayas</strong></h2>
+                <h2 class="hero__title">Explore Beyond the <strong class="hero__heading-strong">Himalayas</strong></h2>
+
                 <div class="hero__search">
-                    <svg class="icon icon-search">
-                        <use xlink:href="#icon-search"></use>
-                    </svg>
-                    <input type="text" placeholder="Your Next Trip" name="search2">
+                   
+                    <label >
+
+                        <input class="hero__search-input" type="text" placeholder="Your Next Trip" name="search2">
+                    </label>
                 </div>
 
             </div>
