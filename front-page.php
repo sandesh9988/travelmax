@@ -82,11 +82,22 @@ the_post();
                     </ul>
                 </div>
                 <div class="link-content__right">
-                <p>We aspire to be the world’s most trustable and progressive travel management company.</p>
-                <h3 class="link-content__right-subtitle">— John shrestha, Founder</h3>
+                    <p>We aspire to be the world’s most trustable and progressive travel management company.</p>
+                    <h3 class="link-content__right-subtitle">— John shrestha, Founder</h3>
+                </div>
             </div>
+
+        </div>
+    </section>
+    <section class="image-slider">
+        <div class="container">
+            <div class="image-slider__heading">
+                <h2 class="image-slider__title">Explore <strong class="image-slider__strong">Nepal with us</strong></h2>
+                <p>Nepal is as old as the hills, and so are its Himalayas that were formed billions of years ago, and
+                    this is where the trekking trails lie.
+
+                </p>
             </div>
-           
         </div>
     </section>
     <?php include 'modules/flex-content/flex-content.php'; ?>
