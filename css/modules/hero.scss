@@ -1,6 +1,15 @@
 .hero {
   padding: 10px 0 100px;
   background-color: $primary;
+  
+  &:before {
+    content: "  ";
+    position: absolute;
+    background-image: url(uploads/sectionPattern.png);
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
 }
 
 .hero__badge {
