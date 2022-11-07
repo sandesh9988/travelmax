@@ -120,16 +120,20 @@
   @include fsz(36px);
   line-height: 1.2;
   letter-spacing: -0.02em;
-
+  z-index: 2;
   color: $white;
-  &::before {
+  &:before {
+    content: " ";
    position: absolute;
    left: 0;
     top: 0;
-   content: " ";
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(239, 195, 149, 0.1) 0%, rgba(239, 195, 149, 0) 100%);
     max-width: 250px ;
     width: 100%;
-    height: auto;
+    height: 100%s;
+    z-index: 5;
   }
 }
 
