@@ -1,0 +1,120 @@
+.post {
+  padding: 100px 0;
+  background-color: $alt;
+
+  > .container {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    @media #{$phone} {
+        flex-direction: column;
+        gap: 40px;
+        
+      }
+  }
+}
+
+.post__heading {
+  max-width: 564px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  .post__title {
+    font-family: $primary-family;
+    font-weight: 400;
+    @include fsz(80px);
+    position: relative;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+
+    color: $primary;
+    strong {
+      color: $secondary;
+      font-weight: 700;
+    }
+
+    &:before {
+      content: "  ";
+      position: absolute;
+      background-image: url(uploads/imgsliderpattern.png);
+      width: 100%;
+      max-width: 594px;
+      height: 274px;
+      top: auto;
+      opacity: 0.75;
+      left: 0;
+      margin-left: -100px;
+      bottom: -100px;
+      left: 0;
+      z-index: -1;
+      overflow: hidden;
+      transform: rotate(180deg);
+    }
+    @media #{$desktop} {
+        @include fsz(70px);
+      }
+  }
+}
+
+.post__description {
+  max-width: 474px;
+  width: 100%;
+  font-family: $alt-family;
+  font-weight: 500;
+  @include fsz(20px);
+  line-height: 1.6;
+  color: $primary;
+}
+
+.post__link {
+    position: relative;
+  margin-top: 35px;
+  max-width: 470px;
+  width: 100%;
+  height: 80px;
+  background-color: $secondary;
+  box-shadow: 0px 30px 40px -15px rgba(0, 0, 0, 0.1);
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px 0 40px;
+overflow: hidden;
+  &:before {
+    content: "  ";
+    position: absolute;
+    background-image: url(uploads/post.png);
+    max-width: 470px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    right: auto;
+    z-index: 13;
+  }
+  a {
+    font-family: $alt-family;
+    font-weight: 700;
+    @include fsz(20px);
+    line-height: 1.6;
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $tertiary;
+    }
+  }
+  svg {
+    fill: $white;
+    width: 38px;
+    height: 16px;
+    cursor: pointer;
+    &:hover {
+        fill: $tertiary;
+    }
+  }
+}
