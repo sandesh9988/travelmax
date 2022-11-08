@@ -40,7 +40,9 @@
   @media #{$header} {
     flex-direction: column;
     gap: 40px;
+
   }
+
 
 
 }
@@ -135,6 +137,10 @@
     height: 100%s;
     z-index: 5;
   }
+  @media #{$phone} {
+    margin-bottom: 80px;
+   }
+ 
 }
 
 .link-content__right-subtitle {

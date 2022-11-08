@@ -48,15 +48,15 @@ the_post();
         <div class="video-slide__slider">
             <figure class="video-slide__media">
                 <img src="<?php echo get_template_directory_uri() ?>/uploads/gifPreviewVideo.jpg"
-                    alt="Image of a logo" />
+                    alt="Image of a trekking " />
             </figure>
             <figure class="video-slide__media">
                 <img src="<?php echo get_template_directory_uri() ?>/uploads/gifPreviewVideo.jpg"
-                    alt="Image of a logo" />
+                    alt="Image of a trekking" />
             </figure>
             <figure class="video-slide__media">
                 <img src="<?php echo get_template_directory_uri() ?>/uploads/gifPreviewVideo.jpg"
-                    alt="Image of a logo" />
+                    alt="Image of a trekking" />
             </figure>
         </div>
 
@@ -90,13 +90,96 @@ the_post();
         </div>
     </section>
     <section class="image-slider">
-        <div class="container">
-            <div class="image-slider__heading">
-                <h2 class="image-slider__title">Explore <strong class="image-slider__strong">Nepal with us</strong></h2>
-                <p>Nepal is as old as the hills, and so are its Himalayas that were formed billions of years ago, and
-                    this is where the trekking trails lie.
+        <div class="image-slider__heading">
+            <h2 class="image-slider__title">Explore <strong class="image-slider__strong">Nepal with us</strong></h2>
+            <p>Nepal is as old as the hills, and so are its Himalayas that were formed billions of years ago, and
+                this is where the trekking trails lie.
 
+            </p>
+        </div>
+
+        <div class="image-slider__mid">
+            <div class="image-slider__span">
+
+            </div>
+            <div class="image-slider__rightarrow">
+                <svg class="icon icon-lArrow">
+                    <use xlink:href="#icon-lArrow"></use>
+                </svg>
+            </div>
+            <div class="image-slider__leftarrow">
+                <svg class="icon icon-rArrow">
+                    <use xlink:href="#icon-rArrow"></use>
+                </svg>
+
+            </div>
+            <div class="image-slider__sliders">
+
+                <figure class="image-slider__media">
+                    <img src="<?php echo get_template_directory_uri() ?>/uploads/imgslider1.jpg"
+                        alt="Image of a trekking" />
+                    <div class="image-slider__content">
+                        <h5>USD 1500</h5>
+                        <h3 class="image-slider__subtitle">Everest Base Camp Trek Via Gokyo Lakes</h3>
+                        <h4>12 Days, Setrenuous</h4>
+                    </div>
+                </figure>
+                <figure class="image-slider__media">
+                    <img src="<?php echo get_template_directory_uri() ?>/uploads/imgslider2.jpg"
+                        alt="Image of a trekking" />
+                    <div class="image-slider__content">
+                        <h5 image-slider__content>USD 1500</h5>
+                        <h3 class="image-slider__subtitle">Everest Base Camp Trek </h3>
+                        <h4>12 Days, Setrenuous</h4>
+                    </div>
+                </figure>
+                <figure class="image-slider__media">
+                    <img src="<?php echo get_template_directory_uri() ?>/uploads/imgslider3.jpg"
+                        alt="Image of a trekking" />
+                    <div class="image-slider__content">
+                        <h5>USD 1500</h5>
+                        <h3 class="image-slider__subtitle">Annapurna Base Camp Trek</h3>
+                        <h4>12 Days, Setrenuous</h4>
+                    </div>
+                </figure>
+                <figure class="image-slider__media">
+                    <img src="<?php echo get_template_directory_uri() ?>/uploads/imgslider1.jpg"
+                        alt="Image of a trekking" />
+                    <div class="image-slider__content">
+                        <h5>USD 1500</h5>
+                        <h3 class="image-slider__subtitle">Everest Base Camp Trek Via Gokyo Lakes</h3>
+                        <h4>12 Days, Setrenuous</h4>
+                    </div>
+                </figure>
+                <figure class="image-slider__media">
+                    <img src="<?php echo get_template_directory_uri() ?>/uploads/imgslider2.jpg"
+                        alt="Image of a trekking" />
+                    <div class="image-slider__content">
+                        <h5>USD 1500</h5>
+                        <h3 class="image-slider__subtitle">Everest Base Camp Trek</h3>
+                        <h4>12 Days, Setrenuous</h4>
+                    </div>
+                </figure>
+            </div>
+        </div>
+
+    </section>
+    <section class="post">
+        <div class="container">
+            <div class="post__heading">
+                <h2 class="post__title">
+                    Our values venenatis magna <strong>everything</strong>
+                </h2>
+            </div>
+            <div class="post__description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet justo at justo tempus semper
                 </p>
+                <div class="post__link">
+                    <a href="#">View all trips</a>
+                    <svg class="icon icon-longarrow">
+                        <use xlink:href="#icon-longarrow"></use>
+                    </svg>
+                </div>
             </div>
         </div>
     </section>
