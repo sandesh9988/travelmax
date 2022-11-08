@@ -183,6 +183,52 @@ the_post();
             </div>
         </div>
     </section>
+    <section class="media">
+        <span class="media__span "></span>
+        <span class="media__span media__span--right"></span>
+        <span class="media__span media__span--down"></span>
+        <span class="media__span media__span--leftdown"></span>
+        <div class="media__heading">
+            <h2 class="media__title">Stories from the himalaya</h2>
+        </div>
+
+
+    </section>
+    <section class="banner">
+        <div class="container">
+            <div class="banner__content">
+                <div class="banner__left">
+                    <h2 class="banner__title">Travel <strong>Photography</strong> at it's <strong>best</strong></h2>
+                    <p>Nepal is as old as the hills, and so are its Himalayas that were formed billions of years ago,
+                        and this is where the trekking trails lie.</p>
+
+                </div>
+                <div class="banner__right">
+                    <figure class="banner__media ">
+                        <img src="<?php echo get_template_directory_uri() ?>/uploads/banner1.jpg"
+                            alt="Image of a beautiful destinations" />
+                            <h3 class="banner__subtitle">Nepal Adventure</h3>
+                            
+                    </figure>
+                    <figure class="banner__media ">
+                        
+                        <img src="<?php echo get_template_directory_uri() ?>/uploads/banner2.jpg"
+                            alt="Image of a beautiful destinations" />
+                            <h3 class="banner__subtitle">Lower Dolpa Trek</h3>
+                    </figure>
+                    <figure class="banner__media">
+                        <img src="<?php echo get_template_directory_uri() ?>/uploads/banner3.jpg"
+                            alt="Image of a beautiful destinations" />
+                            <h3 class="banner__subtitle">Sightseeing Kathmandu</h3>
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+    </section>
+<section>354</section>
+
+   
     <?php include 'modules/flex-content/flex-content.php'; ?>
 </main>
 <?php get_footer(); ?>
