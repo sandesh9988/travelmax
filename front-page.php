@@ -225,9 +225,74 @@ the_post();
             </div>
 
     </section>
+    <section class="tab">
+        <div class="container">
+            <div class="tab__heading">
+                <h2 class="tab__title">WE SERVE EXPERIENCES THAT LAST LONG...</h2>
+            </div>
+            <div class="tab__icons">
+                <ul class="tab__lists">
+                    <li><a href="#"><svg class="icon icon-trek">
+                                <use xlink:href="#icon-trek"></use>
+                            </svg><br>Trekking</a></li>
 
 
-   
+                    <li><a href="#"><svg class="icon icon-daytrip">
+                                <use xlink:href="#icon-daytrip"></use>
+                            </svg><br>Day Trips</a></li>
+
+
+                    <li><a href="#">
+                            <svg class="icon icon-helicopter">
+                                <use xlink:href="#icon-helicopter"></use>
+                            </svg><br>Heli Tours
+                        </a></li>
+
+
+                    <li><a href="#"><svg class="icon icon-mountain">
+                                <use xlink:href="#icon-mountain"></use>
+                            </svg><br>Mountaineering</a></li>
+
+                
+                        <li><a href="#"><svg class="icon icon-bike">
+                                    <use xlink:href="#icon-bike"></use>
+                                </svg><br>Biking</a></li>
+
+
+                        <li><a href="#"><svg class="icon icon-fire">
+                                    <use xlink:href="#icon-fire"></use>
+                                </svg><br>Adventure</a></li>
+
+
+                        <li><a href="#"><svg class="icon icon-handlove">
+                                    <use xlink:href="#icon-handlove"></use>
+                                </svg><br>Volunteering</a></li>
+
+
+                        <li><a href="#"><svg class="icon icon-elephant">
+                                    <use xlink:href="#icon-elephant"></use>
+                                </svg><br>Wildlife Safari</a></li>
+                    </ul>
+            </div>
+            <div class="tab__banner">
+                <figure class="tab__media">
+                <img src="<?php echo get_template_directory_uri() ?>/uploads/tab.jpg"
+                            alt="Image of a beautiful destinations" />
+                </figure>
+                <div class="tab__content">
+                    <h4 class="tab__tag">USD 1,500</h4>
+                    <h5 class="tab__trip"></h5>
+                    <h3 class="tab__subtitle">Everest Base Camp Trek via Gokyo Lakes</h3>
+                    
+                    <p>Annapurna Circuit Trekking is a whole trek; it is your trek; it is the trek that the National Geographic has enlisted as the world’s best. Annapurna Circuit Trekking is not ...</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
     <?php include 'modules/flex-content/flex-content.php'; ?>
