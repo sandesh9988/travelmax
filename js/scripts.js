@@ -186,10 +186,24 @@ $(function () {
           }
         ]
       });
+      
 
 });
 
 
+function openTab(evt, tabName) {
+  var i, tab__banner, tab__links;
+  tab__banner = document.getElementsByClassName("tab__banner");
+  for (i = 0; i < tab__banner.length; i++) {
+    tab__banner[i].style.display = "none";
+  }
+  tab__links = document.getElementsByClassName("tab__links");
+  for (i = 0; i < tab__links.length; i++) {
+    tab__links[i].className = tab__links[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+};
 $(function () {
 
     $('.js-header').e11_MobileNav();

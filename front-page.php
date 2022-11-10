@@ -232,49 +232,61 @@ the_post();
             </div>
             <div class="tab__icons">
                 <ul class="tab__lists">
-                    <li><a href="#"><svg class="icon icon-trek">
+                    <li><button class="tab__links" onclick="openTab(event, 'banner1')"><svg class="icon icon-trek">
                                 <use xlink:href="#icon-trek"></use>
-                            </svg><br>Trekking</a></li>
+                            </svg><br>Trekking</button></li>
 
 
-                    <li><a href="#"><svg class="icon icon-daytrip">
+                    <li><button class="tab__links" onclick="openTab(event, 'banner1')"><svg class="icon icon-daytrip">
                                 <use xlink:href="#icon-daytrip"></use>
-                            </svg><br>Day Trips</a></li>
+                            </svg><br>Day Trips</button></li>
 
 
-                    <li><a href="#">
-                            <svg class="icon icon-helicopter">
+                    <li><button class="tab__links" onclick="openTab(event, 'banner1')"><svg class="icon icon-helicopter">
                                 <use xlink:href="#icon-helicopter"></use>
-                            </svg><br>Heli Tours
-                        </a></li>
+                            </svg><br>Heli Tours</button></li>
 
 
-                    <li><a href="#"><svg class="icon icon-mountain">
+                    <li><button class="tab__links" onclick="openTab(event, 'banner1')"><svg class="icon icon-mountain">
                                 <use xlink:href="#icon-mountain"></use>
-                            </svg><br>Mountaineering</a></li>
+                            </svg><br>Mountaineering</button></li>
 
                 
-                        <li><a href="#"><svg class="icon icon-bike">
+                        <li><button class="tab__links" onclick="openTab(event, 'banner1')"><svg class="icon icon-bike">
                                     <use xlink:href="#icon-bike"></use>
-                                </svg><br>Biking</a></li>
+                                </svg><br>Biking</button></li>
 
 
-                        <li><a href="#"><svg class="icon icon-fire">
+                        <li><button class="tab__links" onclick="openTab(event, 'banner2')"><svg class="icon icon-fire">
                                     <use xlink:href="#icon-fire"></use>
-                                </svg><br>Adventure</a></li>
+                                </svg><br>Adventure</button></li>
 
 
-                        <li><a href="#"><svg class="icon icon-handlove">
+                        <li><button class="tab__links" onclick="openTab(event, 'banner2')"><svg class="icon icon-handlove">
                                     <use xlink:href="#icon-handlove"></use>
-                                </svg><br>Volunteering</a></li>
+                                </svg><br>Volunteering</button></li>
 
 
-                        <li><a href="#"><svg class="icon icon-elephant">
+                        <li><button class="tab__links" onclick="openTab(event, 'banner2')"><svg class="icon icon-elephant">
                                     <use xlink:href="#icon-elephant"></use>
-                                </svg><br>Wildlife Safari</a></li>
+                                </svg><br>Wildlife Safari</button></li>
                     </ul>
             </div>
-            <div class="tab__banner">
+            <div class="tab__banner" id="banner1">
+                <figure class="tab__media">
+                <img src="<?php echo get_template_directory_uri() ?>/uploads/tab.jpg"
+                            alt="Image of a beautiful destinations" />
+                </figure>
+                <div class="tab__content">
+                    <h4 class="tab__tag">USD 1,500</h4>
+                    <h5 class="tab__trip"></h5>
+                    <h3 class="tab__subtitle">Everest Base Camp Trek via Gokyo Lakes</h3>
+                    
+                    <p>Annapurna Circuit Trekking is a whole trek; it is your trek; it is the trek that the National Geographic has enlisted as the world’s best. Annapurna Circuit Trekking is not ...</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="tab__banner" id="banner2">
                 <figure class="tab__media">
                 <img src="<?php echo get_template_directory_uri() ?>/uploads/tab.jpg"
                             alt="Image of a beautiful destinations" />
