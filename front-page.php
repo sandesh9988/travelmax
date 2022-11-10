@@ -341,6 +341,61 @@ the_post();
             </div>
         </div>
     </section>
+    <section class="banner">
+        <div class="container">
+            <div class="banner__heading">
+                <figure class="banner__media banner__media--alt">
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/stars.png" alt="Image of stars" />
+                </figure>
+                <h2 class="banner__title">All-Star adventure <strong class="banner__strong">experience!</strong></h2>
+            </div>
+            <div class="banner__lists">
+                <figure class="banner__logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/banner1.png" alt="Image of stars" />
+                </figure>
+                <figure class="banner__logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/banner2.png" alt="Image of stars" />
+                </figure>
+                <figure class="banner__logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/banner3.png" alt="Image of stars" />
+                </figure>
+                <figure class="banner__logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/banner4.png" alt="Image of stars" />
+                </figure>
+            </div>
+            <div class="banner__bottom">
+                <div class="banner__left">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium, eros quis lacinia
+                        ultrices, urna nisl eleifend est, sed faucibus sem eros sit amt velit. Nam eu risus erat.
+                        pretium, eros quis lacinia ultrices, urna nisl eleifend est, sed faucibus sit amt velit. Nam eu
+                        risus erat.</p>
+                    <div class="banner__profile">
+                        <figure class="banner__media">
+                            <img src="<?php echo get_template_directory_uri(); ?>/uploads/stars.png"
+                                alt="Image of stars" />
+                        </figure>
+                        <h3 class="banner__subtitle">John Shrestha</h3>
+                        <h4>Everest Base Camp trek</h4>
+                    </div>
+                </div>
+                <div class="banner__center">
+                    <p>We aspire to be the world’s most trustable and progressive travel management company.</p>
+                    <div class="banner__profile">
+                        <figure class="banner__media">
+                            <img src="<?php echo get_template_directory_uri(); ?>/uploads/stars.png"
+                                alt="Image of stars" />
+                        </figure>
+                        <h3 class="banner__subtitle">John Shrestha</h3>
+                        <h4>Everest Base Camp trek</h4>
+                    </div>
+                </div>
+                <figure class="banner__right">
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/bannerRight.jpg"
+                        alt="Image of stars" />
+                </figure>
+            </div>
+        </div>
+    </section>
 
 
 
