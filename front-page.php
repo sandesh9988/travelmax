@@ -324,6 +324,23 @@ the_post();
 
         </div>
     </section>
+    <section class="card">
+        <div class="container">
+            <div class="card__heading">
+                <h2 class="card__title">UNLEASH <strong class="card__strong">your DREAM</strong> </h2>
+                <h3 class="card__subtitle">through Travel Max Guide</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet justo at justo tempus semper
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet justo at justo tempus
+                    semper</p>
+
+            </div>
+            <div class="card__link">
+                <a href="#"><svg class="icon icon-card">
+                        <use xlink:href="#icon-card"></use>
+                    </svg>Your custom trip</a>
+            </div>
+        </div>
+    </section>
 
 
 
