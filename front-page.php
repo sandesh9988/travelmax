@@ -47,15 +47,15 @@ the_post();
 
         <div class="video-slide__slider">
             <figure class="video-slide__media">
-                <img src="<?php echo get_template_directory_uri() ?>/uploads/gifPreviewVideo.jpg"
+                <img src="<?php echo get_template_directory_uri(); ?>/uploads/gifPreviewVideo.jpg"
                     alt="Image of a trekking " />
             </figure>
             <figure class="video-slide__media">
-                <img src="<?php echo get_template_directory_uri() ?>/uploads/gifPreviewVideo.jpg"
+                <img src="<?php echo get_template_directory_uri(); ?>/uploads/gifPreviewVideo.jpg"
                     alt="Image of a trekking" />
             </figure>
             <figure class="video-slide__media">
-                <img src="<?php echo get_template_directory_uri() ?>/uploads/gifPreviewVideo.jpg"
+                <img src="<?php echo get_template_directory_uri(); ?>/uploads/gifPreviewVideo.jpg"
                     alt="Image of a trekking" />
             </figure>
         </div>
@@ -116,7 +116,7 @@ the_post();
             <div class="image-slider__sliders">
 
                 <figure class="image-slider__media">
-                    <img src="<?php echo get_template_directory_uri() ?>/uploads/imgslider1.jpg"
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/imgslider1.jpg"
                         alt="Image of a trekking" />
                     <div class="image-slider__content">
                         <h5>USD 1500</h5>
@@ -125,7 +125,7 @@ the_post();
                     </div>
                 </figure>
                 <figure class="image-slider__media">
-                    <img src="<?php echo get_template_directory_uri() ?>/uploads/imgslider2.jpg"
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/imgslider2.jpg"
                         alt="Image of a trekking" />
                     <div class="image-slider__content">
                         <h5 image-slider__content>USD 1500</h5>
@@ -134,7 +134,7 @@ the_post();
                     </div>
                 </figure>
                 <figure class="image-slider__media">
-                    <img src="<?php echo get_template_directory_uri() ?>/uploads/imgslider3.jpg"
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/imgslider3.jpg"
                         alt="Image of a trekking" />
                     <div class="image-slider__content">
                         <h5>USD 1500</h5>
@@ -143,7 +143,7 @@ the_post();
                     </div>
                 </figure>
                 <figure class="image-slider__media">
-                    <img src="<?php echo get_template_directory_uri() ?>/uploads/imgslider1.jpg"
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/imgslider1.jpg"
                         alt="Image of a trekking" />
                     <div class="image-slider__content">
                         <h5>USD 1500</h5>
@@ -152,7 +152,7 @@ the_post();
                     </div>
                 </figure>
                 <figure class="image-slider__media">
-                    <img src="<?php echo get_template_directory_uri() ?>/uploads/imgslider2.jpg"
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/imgslider2.jpg"
                         alt="Image of a trekking" />
                     <div class="image-slider__content">
                         <h5>USD 1500</h5>
@@ -204,19 +204,19 @@ the_post();
                 </div>
                 <div class="media__right">
                     <figure class="media__image ">
-                        <img src="<?php echo get_template_directory_uri() ?>/uploads/banner1.jpg"
+                        <img src="<?php echo get_template_directory_uri(); ?>/uploads/banner1.jpg"
                             alt="Image of a beautiful destinations" />
                         <h3 class="media__subtitle">Nepal Adventure</h3>
 
                     </figure>
                     <figure class="media__image ">
 
-                        <img src="<?php echo get_template_directory_uri() ?>/uploads/banner2.jpg"
+                        <img src="<?php echo get_template_directory_uri(); ?>/uploads/banner2.jpg"
                             alt="Image of a beautiful destinations" />
                         <h3 class="media__subtitle">Lower Dolpa Trek</h3>
                     </figure>
                     <figure class="media__image">
-                        <img src="<?php echo get_template_directory_uri() ?>/uploads/banner3.jpg"
+                        <img src="<?php echo get_template_directory_uri(); ?>/uploads/banner3.jpg"
                             alt="Image of a beautiful destinations" />
                         <h3 class="media__subtitle">Sightseeing Kathmandu</h3>
                     </figure>
@@ -242,7 +242,8 @@ the_post();
                             </svg><br>Day Trips</button></li>
 
 
-                    <li><button class="tab__links" onclick="openTab(event, 'banner1')"><svg class="icon icon-helicopter">
+                    <li><button class="tab__links" onclick="openTab(event, 'banner1')"><svg
+                                class="icon icon-helicopter">
                                 <use xlink:href="#icon-helicopter"></use>
                             </svg><br>Heli Tours</button></li>
 
@@ -251,55 +252,76 @@ the_post();
                                 <use xlink:href="#icon-mountain"></use>
                             </svg><br>Mountaineering</button></li>
 
-                
-                        <li><button class="tab__links" onclick="openTab(event, 'banner1')"><svg class="icon icon-bike">
-                                    <use xlink:href="#icon-bike"></use>
-                                </svg><br>Biking</button></li>
+
+                    <li><button class="tab__links" onclick="openTab(event, 'banner1')"><svg class="icon icon-bike">
+                                <use xlink:href="#icon-bike"></use>
+                            </svg><br>Biking</button></li>
 
 
-                        <li><button class="tab__links" onclick="openTab(event, 'banner2')"><svg class="icon icon-fire">
-                                    <use xlink:href="#icon-fire"></use>
-                                </svg><br>Adventure</button></li>
+                    <li><button class="tab__links" onclick="openTab(event, 'banner2')"><svg class="icon icon-fire">
+                                <use xlink:href="#icon-fire"></use>
+                            </svg><br>Adventure</button></li>
 
 
-                        <li><button class="tab__links" onclick="openTab(event, 'banner2')"><svg class="icon icon-handlove">
-                                    <use xlink:href="#icon-handlove"></use>
-                                </svg><br>Volunteering</button></li>
+                    <li><button class="tab__links" onclick="openTab(event, 'banner2')"><svg class="icon icon-handlove">
+                                <use xlink:href="#icon-handlove"></use>
+                            </svg><br>Volunteering</button></li>
 
 
-                        <li><button class="tab__links" onclick="openTab(event, 'banner2')"><svg class="icon icon-elephant">
-                                    <use xlink:href="#icon-elephant"></use>
-                                </svg><br>Wildlife Safari</button></li>
-                    </ul>
+                    <li><button class="tab__links" onclick="openTab(event, 'banner2')"><svg class="icon icon-elephant">
+                                <use xlink:href="#icon-elephant"></use>
+                            </svg><br>Wildlife Safari</button></li>
+                </ul>
             </div>
             <div class="tab__banner" id="banner1">
                 <figure class="tab__media">
-                <img src="<?php echo get_template_directory_uri() ?>/uploads/tab.jpg"
-                            alt="Image of a beautiful destinations" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/tab.jpg"
+                        alt="Image of a beautiful destinations" />
                 </figure>
                 <div class="tab__content">
-                    <h4 class="tab__tag">USD 1,500</h4>
-                    <h5 class="tab__trip"></h5>
+                    <div class="tab__content-top">
+                        <h4 class="tab__tag">USD 1,500</h4>
+                        <h5 class="tab__trip">New Trip</h5>
+                    </div>
                     <h3 class="tab__subtitle">Everest Base Camp Trek via Gokyo Lakes</h3>
-                    
-                    <p>Annapurna Circuit Trekking is a whole trek; it is your trek; it is the trek that the National Geographic has enlisted as the world’s best. Annapurna Circuit Trekking is not ...</p>
-                    <a href="#">View details</a>
+                    <ul class="tab__content-list">
+                        <li>12 Days</li>
+                        <li class="tab__content--border">Setrenuous</li>
+                        <li>Trekking</li>
+                    </ul>
+                    <p>Annapurna Circuit Trekking is a whole trek; it is your trek; it is the trek that the National
+                        Geographic has enlisted as the world’s best. Annapurna Circuit Trekking is not ...</p>
+                    <div class=" tab__link--small">
+                        <a href="#">View Details</a>
+
+                    </div>
                 </div>
             </div>
             <div class="tab__banner" id="banner2">
                 <figure class="tab__media">
-                <img src="<?php echo get_template_directory_uri() ?>/uploads/tab.jpg"
-                            alt="Image of a beautiful destinations" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/uploads/tab.jpg"
+                        alt="Image of a beautiful destinations" />
                 </figure>
                 <div class="tab__content">
-                    <h4 class="tab__tag">USD 1,500</h4>
-                    <h5 class="tab__trip"></h5>
+                    <div class="tab__content-top">
+                        <h4 class="tab__tag">USD 1,500</h4>
+                        <h5 class="tab__trip">New Trip</h5>
+                    </div>
                     <h3 class="tab__subtitle">Everest Base Camp Trek via Gokyo Lakes</h3>
-                    
-                    <p>Annapurna Circuit Trekking is a whole trek; it is your trek; it is the trek that the National Geographic has enlisted as the world’s best. Annapurna Circuit Trekking is not ...</p>
-                    <a href="#">View details</a>
+                    <ul class="tab__content-list">
+                        <li>12 Days</li>
+                        <li class="tab__content--border">Setrenuous</li>
+                        <li>Trekking</li>
+                    </ul>
+                    <p>Annapurna Circuit Trekking is a whole trek; it is your trek; it is the trek that the National
+                        Geographic has enlisted as the world’s best. Annapurna Circuit Trekking is not ...</p>
+                    <div class=" tab__link--small">
+                        <a href="#">View Details</a>
+
+                    </div>
                 </div>
             </div>
+
         </div>
     </section>
 
