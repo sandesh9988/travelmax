@@ -17,6 +17,7 @@
     width: 100%;
     height: 100%;
     top: 0;
+    z-index: 1;
   }
 }
 
@@ -28,8 +29,13 @@
   letter-spacing: -0.02em;
   color: $white;
   margin-bottom: 40px;
-  @media #{$phone} {
+  @media only screen and (max-width: 1100px) {
     @include fsz(50px);
+    
+  }
+  @media #{$phone} {
+    @include fsz(40px);
+    margin-bottom: 24px;
    }
 }
 
@@ -42,6 +48,7 @@
     gap: 40px;
 
   }
+  
 
 
 
@@ -59,6 +66,10 @@
     line-height: 1.35;
     color: $secondary-alt;
     margin-bottom: 25px;
+    @media #{$phone} {
+      @include fsz(20px);
+      margin-bottom: 14px;
+     }
   }
   p:nth-child(2) {
     max-width: 670px;
@@ -69,7 +80,9 @@
     line-height: 1.35;
     color: $white;
     margin-bottom: 30px;
+   
   }
+  
 }
 
 .link-content__list {
@@ -104,6 +117,11 @@
       line-height: 1;
       letter-spacing: -0.02em;
       color: $white;
+      z-index: 45;
+      @media #{$phone} {
+        @include fsz(16px);
+        
+       }
       &:hover {
         color: $secondary-alt;
       }
@@ -124,6 +142,10 @@
   letter-spacing: -0.02em;
   z-index: 2;
   color: $white;
+  @media #{$phone} {
+    @include fsz(28px);
+   
+   }
   &:before {
     content: " ";
    position: absolute;
@@ -138,18 +160,21 @@
     z-index: 5;
   }
   @media #{$phone} {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
    }
- 
+   strong {
+    font-family: $alt-family;
+    font-weight: 600;
+    @include fsz(18px);
+    line-height: 1;
+    color: $white;
+  
+    opacity: 0.5;
+    margin-top: 40px;
+    @media #{$phone} {
+      @include fsz(16px);
+     }
+   }
+   
 }
 
-.link-content__right-subtitle {
-  font-family: $alt-family;
-  font-weight: 600;
-  @include fsz(18px);
-  line-height: 1;
-  color: $white;
-
-  opacity: 0.5;
-  margin-top: 40px;
-}

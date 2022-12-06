@@ -36,6 +36,7 @@
 .media__heading {
   max-width: 470px;
   width: 100%;
+  text-align: center;
   .media__title {
     font-family: $alt-family;
     font-weight: 600;
@@ -114,7 +115,7 @@
     position: absolute;
     z-index: 2;
     top: auto;
-    bottom: 0px;
+    bottom: -1px;
     left: 0;
     right: 0;
     width: 100%;

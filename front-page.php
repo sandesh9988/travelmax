@@ -14,12 +14,11 @@ the_post();
                     <use xlink:href="#icon-rightarrow"></use>
                 </svg>
             </div>
-            <div class="hero__heading">
-                <h1 class="hero__title">Explore Beyond the <br><strong class="hero__heading-strong">Himalayas</strong>
-                </h1>
+            <div class="hero__title">
+                <p>Explore Beyond the <br><strong class="hero__heading-strong">Himalayas</strong>
+                </p>
 
                 <div class="hero__search">
-
                     <label>
 
                         <input class="hero__search-input" type="text" placeholder="Your Next Trip" name="search2">
@@ -37,12 +36,12 @@ the_post();
                     <use xlink:href="#icon-play_icon"></use>
                 </svg>
                 <div class="video-slide__content">
-                    <h3 class="video-slide__subtitle">Play Video</h3>
-                    <p>2:53</p>
-
+                    <p>Play Video<br><strong>2:53</strong></p>
                 </div>
             </div>
-            <h2 class="video-slide__title">List Of Easy Trek For The First Timers'</h2>
+            <div class="video-slide__title">
+                <p>List Of Easy Trek For The First Timers'</p>
+            </div>
         </div>
 
         <div class="video-slide__slider">
@@ -83,7 +82,7 @@ the_post();
                 </div>
                 <div class="link-content__right">
                     <p>We aspire to be the world’s most trustable and progressive travel management company.</p>
-                    <h3 class="link-content__right-subtitle">— John shrestha, Founder</h3>
+                    <p><strong>— John shrestha, Founder</p>
                 </div>
             </div>
 
@@ -259,7 +258,7 @@ the_post();
 
 
                     <li><button class="tab__links" onclick="openTab(event, 'banner2')"><svg class="icon icon-fire">
-                                <use xlink:href="#icon-fire"></use>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                <use xlink:href="#icon-fire"></use>
                             </svg><br>Adventure</button></li>
 
 
@@ -328,7 +327,9 @@ the_post();
         <div class="container">
             <div class="card__heading">
                 <h2 class="card__title">UNLEASH <strong class="card__strong">your DREAM</strong> </h2>
-                <h3 class="card__subtitle">through Travel Max Guide</h3>
+                <div class="card__subtitle">
+                    <p>through Travel Max Guide</p>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet justo at justo tempus semper
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet justo at justo tempus
                     semper</p>

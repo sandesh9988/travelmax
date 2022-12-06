@@ -3,33 +3,46 @@
   background-color: $primary;
   
   &:before {
-    content: "  ";
+    content: "";
     position: absolute;
     background-image: url(uploads/sectionPattern.png);
     width: 100%;
     height: 100%;
     top: 0;
+    left: 0;
+  }
+  @media #{$phone} {
+    padding-bottom: 40px;
   }
 }
 
 .hero__badge {
+  background-color: $secondary;
+  font-family: $alt-family;
+  text-align: center;
   position: relative;
   max-width: 440px;
   margin: 0 auto;
   width: 100%;
   display: flex;
   gap: 10px;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0px 5px 30px -5px #512814;
   border-radius: 50px;
-  background-color: $secondary;
-  font-family: $alt-family;
   font-weight: 500;
   @include fsz(18px);
   line-height: 1.1;
   color: $white;
   padding: 7px 15px;
   margin-bottom: 88px;
+  @media only screen and (max-width: 1100px) {
+    @include fsz(16px);
+    margin-bottom: 40px;
+  }
+  @media #{$phone} {
+    @include fsz(14px);
+  }
   .hero__badge-strong {
     font-weight: 700;
   }
@@ -44,16 +57,16 @@
   }
 }
 
-.hero__heading {
+
   .hero__title {
     font-family: $primary-family;
+    color: $white;
     font-weight: 400;
     @include fsz(36px);
     line-height: 1;
     text-align: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: $white;
     @media only screen and (max-width: 1100px) {
       @include fsz(28px);
     }
@@ -78,10 +91,13 @@
       @include fsz(150px);
     }
     @media #{$phone} {
+      @include fsz(100px);
+    }
+    @media only screen and (max-width: 510px) {
       @include fsz(70px);
     }
   }
-}
+
 
 .hero__search {
   position: relative;
@@ -124,7 +140,9 @@ label:before {
   width: 24px;
   height: 24px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill='none'%3E%3Cpath d='M14.0271 15.3918L16.5076 17.8723C16.1287 18.595 16.0896 19.3137 16.488 19.7122L21.0154 24.2395C21.5857 24.8098 22.8279 24.4973 23.781 23.5403C24.738 22.5833 25.0505 21.345 24.4802 20.7747L19.9568 16.2473C19.5544 15.8489 18.8357 15.8879 18.113 16.2629L15.6326 13.7864L14.0271 15.3918ZM9.26538 0.524658C4.57007 0.524658 0.765381 4.32935 0.765381 9.02466C0.765381 13.72 4.57007 17.5247 9.26538 17.5247C13.9607 17.5247 17.7654 13.72 17.7654 9.02466C17.7654 4.32935 13.9607 0.524658 9.26538 0.524658ZM9.26538 15.5247C5.67554 15.5247 2.76538 12.6145 2.76538 9.02466C2.76538 5.43481 5.67554 2.52466 9.26538 2.52466C12.8552 2.52466 15.7654 5.43481 15.7654 9.02466C15.7654 12.6145 12.8552 15.5247 9.26538 15.5247Z' fill='%23203942'/%3E%3C/svg%3E");
-  
+  @media #{$phone} {
+    @include fsz(14px);
+  }
 }
 
 .hero__search input[type="text"] {
@@ -138,4 +156,7 @@ label:before {
   border-radius: none;
   padding: 0;
   z-index: 2;
+  @media #{$phone} {
+    @include fsz(16px);
+  }
 }
