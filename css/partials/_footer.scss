@@ -4,6 +4,9 @@
   position: relative;
   padding: 80px 0 40px;
   z-index: 1;
+  @media #{$phone} {
+   padding: 40px 0;
+  }
 
   &:before {
     content: " ";
@@ -95,6 +98,9 @@
   line-height: 1.1;
   color: $white;
   margin-bottom: 10px;
+  @media #{$phone} {
+    @include fsz(26px);
+  }
 }
 
 .footer__form {
@@ -146,7 +152,7 @@
   margin-top: 20px;
 
   @media #{$phone} {
-    @include fsz(25px);
+    @include fsz(20px);
     flex-direction: column;
   }
 
@@ -157,7 +163,7 @@
     line-height: 0.9;
     color: $white;
     @media #{$phone} {
-      @include fsz(25px);
+      @include fsz(20px);
     }
     &:hover {
       color: $secondary;
@@ -223,6 +229,7 @@
   width: 100%;
   justify-content: space-between;
   margin-bottom: 40px;
+  
 
   @media #{$desktop} {
     flex-direction: column;
@@ -237,19 +244,19 @@
     }
     @media #{$phone} {
     max-width: 100%;
-      
+    text-align: center; 
     }
   }
   .footer__media-right {
     max-width: 671px;
     width: 100%;
-
+    
     @media #{$desktop} {
       margin: 0 auto;
     }
     @media #{$phone} {
       max-width: 100%;
-        
+      text-align: center; 
       }
   }
 }
@@ -258,12 +265,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+   
   @media #{$phone} {
     
     flex-direction: column;
     gap: 10px;
-    align-items: flex-start;
+    align-items: center;
   }
 }
 

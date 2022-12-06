@@ -2,8 +2,10 @@
   padding: 91px 0 100px 0;
   background-color: $white-soft;
   @media only screen and (max-width: 800px) {
-   padding-bottom: 40px;
-    
+   padding-bottom: 40px; 
+  }
+  @media #{$phone} {
+   padding: 40px 0;
   }
 }
 
@@ -11,8 +13,6 @@
   max-width: 620px;
   width: 100%;
   margin: 0 auto;
-
-  .tab__title {
     font-family: $alt-family;
     font-weight: 700;
     @include fsz(20px);
@@ -21,7 +21,9 @@
     letter-spacing: 0.2em;
     color: $primary;
     margin-bottom: 25px;
-  }
+    @media #{$phone} {
+      @include fsz(18px);
+     }
 }
 
 .tab__icons {
@@ -153,12 +155,12 @@
 .tab__media {
   max-width: 320px;
   width: 100%;
-  height: 100%;
+  height: 400px;
   overflow: hidden;
   
   img {
     width: 100%;
-    height: 400px;
+    height: 100%;
     object-fit: cover;
     
   }
@@ -205,7 +207,7 @@
   line-height: 1.5;
   color: $primary;
   @media only screen and (max-width: 600px) {
-    padding: 35px 0;
+    padding: 30px 0;
     
   }
 }

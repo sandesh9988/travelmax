@@ -107,6 +107,7 @@
 
 //slider part
 .image-slider__sliders {
+  position: relative;
   @media #{$phone}{
     padding: 0 20px;
   }
@@ -167,8 +168,17 @@
   max-width: 420px;
   padding: 0 35px;
   width: 100%;
-
-  h5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column  ;
+  justify-content: center;
+  font-family: $alt-family;
+  font-weight: 600;
+  @include fsz(18px);
+  line-height: 1.1;
+  text-align: center;
+  color: $white;
+  span {
     padding: 4px 12px;
     width: 90px;
     height: 25px;
@@ -180,7 +190,7 @@
     color: $white;
     background-color: $primary;
     border-radius: 36px;
-    margin: 0 auto;
+   
   }
   .image-slider__subtitle {
     font-family: $primary-family;
@@ -192,15 +202,16 @@
     text-transform: capitalize;
     color: $white;
     margin-bottom: 10px;
+    @media #{$phone}{
+      @include fsz(28px);
+    }
   }
-  h4 {
-    font-family: $alt-family;
-    font-weight: 600;
-    @include fsz(18px);
-    line-height: 1.1;
-    text-align: center;
-    color: $white;
+  strong {
+   
     opacity: 0.75;
+  }
+  @media #{$phone}{
+    @include fsz(16px);
   }
 }
 

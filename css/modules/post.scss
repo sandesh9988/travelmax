@@ -14,6 +14,10 @@
         
       }
   }
+  @media #{$phone} {
+   padding: 40px 0;
+  }
+  
 }
 
 .post__heading {
@@ -28,8 +32,8 @@
     position: relative;
     line-height: 0.9;
     letter-spacing: -0.02em;
-
     color: $primary;
+    
     strong {
       color: $secondary;
       font-weight: 700;
@@ -51,12 +55,16 @@
       z-index: -1;
       overflow: hidden;
       transform: rotate(180deg);
+      @media #{$phone} {
+       display: none ;
+        
+      }
     }
     @media #{$desktop} {
         @include fsz(70px);
       }
       @media #{$phone} {
-        @include fsz(50px);
+        @include fsz(44px);
         
       }
   }
@@ -85,9 +93,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 32px 0 40px;
-overflow: hidden;
+  overflow: hidden;
+  @media #{$phone} {
+    width: 70%;
+    height: 50px; 
+    padding: 0 16px 0 20px;
+  }
   &:before {
-    content: "  ";
+    content: "";
     position: absolute;
     background-image: url(uploads/post.png);
     max-width: 470px;
@@ -95,7 +108,6 @@ overflow: hidden;
     height: 100%;
     top: 0;
     left: 0;
-    
     right: auto;
     z-index: 13;
   }
@@ -107,7 +119,13 @@ overflow: hidden;
     text-align: center;
     color: $white;
     text-transform: uppercase;
-
+    @media #{$phone} { 
+      @include fsz(18px);
+    }
+    @media only screen and (max-width: 480px) {
+      @include fsz(16px);
+      
+    }
     &:hover {
         color: $tertiary;
     }
@@ -119,6 +137,10 @@ overflow: hidden;
     cursor: pointer;
     &:hover {
         fill: $tertiary;
+    }
+    @media only screen and (max-width: 480px) {
+     width: 28px;
+      
     }
   }
 }

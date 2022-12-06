@@ -82,7 +82,7 @@ the_post();
                 </div>
                 <div class="link-content__right">
                     <p>We aspire to be the world’s most trustable and progressive travel management company.</p>
-                    <p><strong>— John shrestha, Founder</p>
+                    <p><strong>— John shrestha, Founder</strong></p>
                 </div>
             </div>
 
@@ -118,45 +118,45 @@ the_post();
                     <img src="<?php echo get_template_directory_uri(); ?>/uploads/imgslider1.jpg"
                         alt="Image of a trekking" />
                     <div class="image-slider__content">
-                        <h5>USD 1500</h5>
+                        <span>USD 1500</span>
                         <h3 class="image-slider__subtitle">Everest Base Camp Trek Via Gokyo Lakes</h3>
-                        <h4>12 Days, Setrenuous</h4>
+                        <p><strong>12 Days, Setrenuous</strong></p>
                     </div>
                 </figure>
                 <figure class="image-slider__media">
                     <img src="<?php echo get_template_directory_uri(); ?>/uploads/imgslider2.jpg"
                         alt="Image of a trekking" />
                     <div class="image-slider__content">
-                        <h5 image-slider__content>USD 1500</h5>
+                        <span>USD 1500</span>
                         <h3 class="image-slider__subtitle">Everest Base Camp Trek </h3>
-                        <h4>12 Days, Setrenuous</h4>
+                        <p><strong>12 Days, Setrenuous</strong></p>
                     </div>
                 </figure>
                 <figure class="image-slider__media">
                     <img src="<?php echo get_template_directory_uri(); ?>/uploads/imgslider3.jpg"
                         alt="Image of a trekking" />
                     <div class="image-slider__content">
-                        <h5>USD 1500</h5>
+                        <span>USD 1500</span>
                         <h3 class="image-slider__subtitle">Annapurna Base Camp Trek</h3>
-                        <h4>12 Days, Setrenuous</h4>
+                        <p><strong>12 Days, Setrenuous</strong></p>
                     </div>
                 </figure>
                 <figure class="image-slider__media">
                     <img src="<?php echo get_template_directory_uri(); ?>/uploads/imgslider1.jpg"
                         alt="Image of a trekking" />
                     <div class="image-slider__content">
-                        <h5>USD 1500</h5>
+                        <span>USD 1500</span>
                         <h3 class="image-slider__subtitle">Everest Base Camp Trek Via Gokyo Lakes</h3>
-                        <h4>12 Days, Setrenuous</h4>
+                        <p><strong>12 Days, Setrenuous</strong></p>
                     </div>
                 </figure>
                 <figure class="image-slider__media">
                     <img src="<?php echo get_template_directory_uri(); ?>/uploads/imgslider2.jpg"
                         alt="Image of a trekking" />
                     <div class="image-slider__content">
-                        <h5>USD 1500</h5>
+                        <span>USD 1500</span>
                         <h3 class="image-slider__subtitle">Everest Base Camp Trek</h3>
-                        <h4>12 Days, Setrenuous</h4>
+                        <p><strong>12 Days, Setrenuous</strong></p>
                     </div>
                 </figure>
             </div>
@@ -187,8 +187,8 @@ the_post();
         <span class="media__span media__span--right"></span>
         <span class="media__span media__span--down"></span>
         <span class="media__span media__span--leftdown"></span>
-        <div class="media__heading">
-            <h2 class="media__title">Stories from the himalaya</h2>
+        <div class="media__title">
+            <p>Stories from the himalaya</p>
         </div>
         <div class="media__banner">
 
@@ -205,19 +205,25 @@ the_post();
                     <figure class="media__image ">
                         <img src="<?php echo get_template_directory_uri(); ?>/uploads/banner1.jpg"
                             alt="Image of a beautiful destinations" />
-                        <h3 class="media__subtitle">Nepal Adventure</h3>
+                        <div class="media__subtitle">
+                            <p>Nepal Adventure</p>
+                        </div>
 
                     </figure>
                     <figure class="media__image ">
 
                         <img src="<?php echo get_template_directory_uri(); ?>/uploads/banner2.jpg"
                             alt="Image of a beautiful destinations" />
-                        <h3 class="media__subtitle">Lower Dolpa Trek</h3>
+                        <div class="media__subtitle">
+                            <p>Lower Dolpa Trek</p>
+                        </div>
                     </figure>
                     <figure class="media__image">
                         <img src="<?php echo get_template_directory_uri(); ?>/uploads/banner3.jpg"
                             alt="Image of a beautiful destinations" />
-                        <h3 class="media__subtitle">Sightseeing Kathmandu</h3>
+                        <div class="media__subtitle">
+                            <p>Sightseeing Kathmandu</p>
+                        </div>
                     </figure>
 
                 </div>
@@ -227,7 +233,7 @@ the_post();
     <section class="tab">
         <div class="container">
             <div class="tab__heading">
-                <h2 class="tab__title">WE SERVE EXPERIENCES THAT LAST LONG...</h2>
+                <p>WE SERVE EXPERIENCES THAT LAST LONG...</p>
             </div>
             <div class="tab__icons">
                 <ul class="tab__lists">
@@ -279,8 +285,8 @@ the_post();
                 </figure>
                 <div class="tab__content">
                     <div class="tab__content-top">
-                        <h4 class="tab__tag">USD 1,500</h4>
-                        <h5 class="tab__trip">New Trip</h5>
+                        <span class="tab__tag">USD 1,500</span>
+                        <span class="tab__trip">New Trip</span>
                     </div>
                     <h3 class="tab__subtitle">Everest Base Camp Trek via Gokyo Lakes</h3>
                     <ul class="tab__content-list">
@@ -303,8 +309,8 @@ the_post();
                 </figure>
                 <div class="tab__content">
                     <div class="tab__content-top">
-                        <h4 class="tab__tag">USD 1,500</h4>
-                        <h5 class="tab__trip">New Trip</h5>
+                        <span class="tab__tag">USD 1,500</span>
+                        <span class="tab__trip">New Trip</span>
                     </div>
                     <h3 class="tab__subtitle">Everest Base Camp Trek via Gokyo Lakes</h3>
                     <ul class="tab__content-list">
@@ -375,8 +381,11 @@ the_post();
                             <img src="<?php echo get_template_directory_uri(); ?>/uploads/stars.png"
                                 alt="Image of stars" />
                         </figure>
-                        <h3 class="banner__subtitle">John Shrestha</h3>
-                        <h4>Everest Base Camp trek</h4>
+                        <div class="banner__subtitle">
+                            <p><strong>John Shrestha</strong></p>
+                            <p>Everest Base Camp trek</p>
+                        </div>
+
                     </div>
                 </div>
                 <div class="banner__center">
@@ -386,8 +395,10 @@ the_post();
                             <img src="<?php echo get_template_directory_uri(); ?>/uploads/stars.png"
                                 alt="Image of stars" />
                         </figure>
-                        <h3 class="banner__subtitle">John Shrestha</h3>
-                        <h4>Everest Base Camp trek</h4>
+                        <div class="banner__subtitle">
+                            <p><strong>John Shrestha</strong></p>
+                            <p>Everest Base Camp trek</p>
+                        </div>
                     </div>
                 </div>
                 <figure class="banner__right">
