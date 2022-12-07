@@ -3,7 +3,7 @@ get_header();
 the_post();
 ?>
 <main class="page__home">
-    <section class="hero">
+<section class="hero">
         <div class="container">
             <div class="hero__badge">
                 <svg class="icon icon-percent">
@@ -408,8 +408,6 @@ the_post();
             </div>
         </div>
     </section>
-
-
 
 
 

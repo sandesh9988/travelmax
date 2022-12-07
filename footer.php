@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="container">
+<div class="container">
         <div class="footer__top">
             <div class="footer__top-left">
                 <h2 class="footer__title">Contact Us, Head Office</h2>
@@ -154,6 +154,7 @@
     </div>
 </footer>
 <?php wp_footer(); ?>
+
 <svg style="position:absolute;width:0;height:0" overflow="hidden">
     <defs>
         <symbol id="icon-facebook" viewBox="0 0 32 32">
@@ -275,6 +276,5 @@
 
     </defs>
 </svg>
-</body>
 
 </html>
